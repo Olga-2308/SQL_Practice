@@ -1,0 +1,3 @@
+SELECT DISTINCT director
+FROM Films
+ORDER BY 1 ASC;
