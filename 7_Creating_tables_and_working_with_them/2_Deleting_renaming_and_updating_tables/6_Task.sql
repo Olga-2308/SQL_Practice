@@ -1,0 +1,11 @@
+ALTER TABLE Students
+MODIFY COLUMN id INT;
+
+ALTER TABLE Students
+DROP PRIMARY KEY;
+
+ALTER TABLE Students
+DROP COLUMN id;
+
+ALTER TABLE Students
+ADD PRIMARY KEY (name, surname);
