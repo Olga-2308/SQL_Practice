@@ -1,0 +1,2 @@
+ALTER TABLE Students
+RENAME Pupils;
