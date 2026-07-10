@@ -1,0 +1,9 @@
+DELIMITER //
+CREATE TRIGGER date_and_time_current
+BEFORE INSERT
+ON Posts
+FOR EACH ROW
+BEGIN
+    SET NEW.post_date = NOW();
+END //
+DELIMITER ;
